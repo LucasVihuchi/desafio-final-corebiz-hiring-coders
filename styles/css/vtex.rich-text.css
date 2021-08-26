@@ -1,0 +1,135 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+
+
+/* About Title */
+
+.container--aboutTitle {
+  color: #ffffff;
+  font-size: 6rem;
+  padding: 0;
+}
+
+.wrapper--aboutTitle {
+  padding-bottom: 0;
+}
+
+.heading--aboutTitle {
+  font-size: 5.5rem;
+  margin: 0 0 3rem;
+  line-height: 0.8;
+}
+
+/* About Text */
+
+.container--aboutText {
+  color: #ffffff;
+}
+
+.paragraph--aboutText {
+  margin: 0 0 3rem 22%;
+  line-height: 1.4;
+  font-size: 18px;
+  width: 100%;
+  max-width: 26.4rem;
+}
+
+/* Values title */
+
+.heading--valuesTitle {
+  color: #f1c233;
+}
+
+/* Values text */
+.wrapper--valuesText {
+  color: #000000;
+}

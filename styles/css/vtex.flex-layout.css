@@ -1,0 +1,145 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 6.5rem 0 0 2rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-image: linear-gradient(to bottom, #000000, transparent);
+
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #000000;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+
+/* About Us */
+
+.flexCol--textAbout {
+  padding-top: 14rem;
+  width: 45%;
+  padding-left: calc(50% - 200px);
+  z-index: 1;
+}
+
+.flexRow--aboutRow {
+  margin-bottom: 120px;
+  overflow: hidden;
+  top: -65px; /* Retirar quando ajeitar o menu/header */
+  position: relative;
+  min-height: 47rem;
+}
+
+.flexRow--aboutRow::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 10rem;
+}
+
+.flexRow--aboutRow :global(.vtex-store-components-3-x-container){
+  margin: 0 auto;
+}
+
+/* Fim About Us */
+
+
+
+/* Values */
+.flexCol--textValues {
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  margin-right: 0;
+
+}
+
+/* Imagem About */
+
+.flexCol--aboutImage {
+  width: 55%;
+}
