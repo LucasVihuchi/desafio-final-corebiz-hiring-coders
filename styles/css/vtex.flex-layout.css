@@ -133,13 +133,39 @@
 /* Values */
 .flexCol--textValues {
   background-color: #f5f5f5;
-  margin-top: 50px;
-  margin-right: 0;
-
+  top: 6rem;
+  position: absolute;
+  z-index: 1;
+  padding-left: calc(50% - 300px);
+  padding-top: 6rem;
 }
 
 /* Imagem About */
 
 .flexCol--aboutImage {
   width: 55%;
+}
+
+/* Vision */
+
+.flexRow--visionValuesRow {
+  margin-bottom: 120px;
+  overflow: hidden;
+  position: relative;
+  min-height: 42rem;
+}
+
+.flexRow--visionValuesRow :global(.vtex-store-components-3-x-container) {
+  margin: 0 auto;
+}
+
+.flexCol--textVision {
+  background: url("https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg");
+  background-size: cover;
+  margin-left: 0;
+  position: relative;
+  z-index: 2;
+  padding-left: calc(50% - 240px);
+  padding-bottom: 10rem;
+  padding-top: 5rem;
 }
