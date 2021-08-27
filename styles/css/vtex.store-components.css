@@ -115,6 +115,8 @@
 
 .imageElement--image-background {
   margin-top: -60px;
+  height: 50rem;
+  object-fit: cover;
 }
 
 
