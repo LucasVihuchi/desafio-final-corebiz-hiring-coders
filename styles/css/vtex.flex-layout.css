@@ -108,6 +108,7 @@
 }
 
 
+
 /* About */
 
 /* About Us */
@@ -151,7 +152,7 @@
   top: 6rem;
   position: absolute;
   z-index: 1;
-  padding-left: calc(50% - 300px);
+  padding-left: 40rem;
   padding-top: 6rem;
 }
 
@@ -180,7 +181,7 @@
   margin-left: 0;
   position: relative;
   z-index: 2;
-  padding-left: calc(50% - 240px);
+  padding-left: calc(50% - 350px);
   padding-bottom: 10rem;
   padding-top: 5rem;
 }
