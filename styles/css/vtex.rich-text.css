@@ -84,7 +84,6 @@
     max-width: 60%;
   }
 
-
 }
 
 
@@ -131,6 +130,26 @@
   max-width: 11.5rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .paragraph--title {
+    font-size: 5rem;
+    margin-top: 3rem; 
+  }
+
+  .paragraph--subtitle {
+    font-size: 1.5rem;
+  }
+
+  .paragraph--stats {
+    font-size: 1rem;
+  }
+
+  .container--stats .container--stats-description {
+    width: 50%;
+  }
+
+}
+
 
 /* About */
 
@@ -152,6 +171,14 @@
   line-height: 0.8;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .heading--aboutTitle {
+    margin-top: 1rem;
+    font-size: 4rem;
+    margin-left: 0.5rem;
+  }
+}
+
 /* About Text */
 
 .container--aboutText {
@@ -164,7 +191,15 @@
   font-size: 18px;
   width: 100%;
   max-width: 26.4rem;
+  color: #fff;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .paragraph--aboutText {
+  margin-left: 0.5rem;
+  }
+}
+
 
 /* Vision title */
 .heading--visionTitle {
@@ -197,6 +232,28 @@
   padding-left: 30px;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .heading--visionTitle {
+    font-size: 2rem;
+  }
+
+  .container--visionTitle {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .paragraph--visionText {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .container--visionText {
+    padding-left: 0;
+  }
+
+
+}
 /* Values title */
 
 .heading--valuesTitle {
@@ -215,6 +272,22 @@
   margin: 0;
   font-weight: 400;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .heading--valuesTitle {
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .heading--valuesText {
+    font-size: 2rem;
+  }
+
+}
+
+
+
 
 /* Footer */
 
