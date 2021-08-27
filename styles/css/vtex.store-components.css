@@ -109,6 +109,18 @@
 }
 
 
+/* Home */
+
+/*Background */
+
+.imageElement--image-background {
+  margin-top: -60px;
+}
+
+
+
+/* About */
+
 /* Vision Image */
 .imageElement--visionImage {
   max-height: 300px;

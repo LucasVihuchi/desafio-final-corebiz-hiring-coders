@@ -1,14 +1,13 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "horizontalAlign": "right"
     },
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more",
-      "menu-item#contato",
-      "menu-item#careers",
       "menu-item#blog"
     ]
   },
@@ -37,8 +36,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "serviços",
-        "text": "serviços"
+        "tagTitle": "produtos",
+        "text": "produtos"
       }
     }
   },
@@ -52,40 +51,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "cases",
-        "text": "cases"
-      }
-    }
-  },
-
-  "menu-item#contato": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
         "tagTitle": "contato",
         "text": "contato"
-      }
-    }
-  },
-
-  "menu-item#careers": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "careers",
-        "text": "careers"
       }
     }
   },

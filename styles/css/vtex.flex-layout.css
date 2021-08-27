@@ -95,6 +95,21 @@
 }
 
 
+
+
+
+
+
+/* Home */
+
+.flexRowContent--stats-container {
+  margin-left: 11rem;
+  max-width: 25rem;
+}
+
+
+/* About */
+
 /* About Us */
 
 .flexCol--textAbout {

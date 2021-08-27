@@ -84,14 +84,57 @@
     max-width: 60%;
   }
 
-  .container--title .paragraph {
-    line-height: 1.3em;
-  }
+
+}
+
+
+/* Home */
+
+/* Title */
+
+.paragraph--title {
+  background-color: transparent;
+    margin-left: 11rem;
+    margin-bottom: 5rem;
+    font-size: 8.3vw;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    line-height: 0.8;
+}
+
+.paragraph--subtitle {
+    font-family: Circular Std Book,sans-serif;
+    max-width: 25.5rem;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 11rem;
+    margin-top: 0;
+}
+
+.paragraph--stats {
+  font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #f1c233;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.paragraph--stats-description {
+  margin: 0.5rem 0 0 0;
+  font-family: 'Manrope', sans-serif;
+  color: #ccc;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  max-width: 11.5rem;
 }
 
 
 
 
+/* About */
 
 /* About Title */
 

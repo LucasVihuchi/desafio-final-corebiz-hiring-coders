@@ -54,9 +54,8 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "locale-switcher"
+      "flex-layout.col#category-menu"
     ]
   },
   "flex-layout.col#logo-desktop": {
