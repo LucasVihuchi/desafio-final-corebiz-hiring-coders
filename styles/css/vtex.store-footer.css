@@ -9,3 +9,37 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+/* Footer */
+
+.footerLayout{
+  margin-top: 0px; /* Verificar se essa margem será necessária para manter o layout do footer */
+  position: relative;
+  width: 100%;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--social-n-language),
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--location-n-logo){
+  padding-top: 120px;
+  padding-bottom: 178px;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  background-color: #000000;
+  width: 100vw;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--social-n-language){
+  padding-top: 0px;
+  padding-bottom: 160px;
+}
+
+.socialNetworkImage {
+  width: 20px;
+  height: 20px;
+  
+  filter: contrast(0%);
+}

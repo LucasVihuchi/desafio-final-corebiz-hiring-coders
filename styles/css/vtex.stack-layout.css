@@ -7,3 +7,25 @@
   top: 0;
   left: auto;
 }
+
+/* Home */
+
+.stackItem.stackItem--first.stackItem--image-background {
+  background-color: #000000;
+}
+
+/* Footer */
+
+.stackContainer :global(.vtex-stack-layout-0-x-stackItem--footer-stack){
+  width: 100%;
+}
+
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}

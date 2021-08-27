@@ -216,3 +216,9 @@
   font-weight: 400;
 }
 
+/* Footer */
+
+.heading.heading--address-footer.headingLevel6.headingLevel6--address-footer.heading-level-6 {
+  margin-top: 0;
+  margin-bottom: 21px;
+}

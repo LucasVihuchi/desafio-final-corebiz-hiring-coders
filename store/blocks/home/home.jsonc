@@ -2,21 +2,34 @@
     "store.home": {
         "blocks": [
             "stack-layout#home"
-            
-        ]
+        ],
+        "parent": { 
+            "footer": "footer#home"
+        },
+        "props": {
+            "blockClass": "stack-home"
+        }
     },
     "stack-layout#home": {
-        "children": ["image#background", "flex-layout.row#home"]
+        "children": [
+            "image#background",
+            "flex-layout.row#home"
+        ]
     },
     "image#background": {
         "props": {
             "blockClass": "image-background",
             "width": "100%",
-            "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+            "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png",
+            "zIndexOffset": 10
         }
     },
     "flex-layout.row#home": {
-        "children": ["flex-layout.col#home"]
+        "children": ["flex-layout.col#home"],
+        "props": {
+            "zIndexOffset": 11
+        }
+
     },
     "flex-layout.col#home": {
         "props": {

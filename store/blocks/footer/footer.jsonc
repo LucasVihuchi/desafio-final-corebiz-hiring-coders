@@ -1,0 +1,386 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "stack-layout#footer-desktop"
+    ]
+  },
+  "stack-layout#footer-desktop": {
+    "children": [
+      "image#footer-background",
+      "flex-layout.row#footer-desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-stack"
+    }
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "back-to-top-button"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-flex"
+    }
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#brasil",
+      "flex-layout.col#argentina",
+      "flex-layout.col#mexico",
+      "flex-layout.col#chile",
+      "flex-layout.col#logo-footer"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colGap": 9,
+      "blockClass": "location-n-logo"
+    }
+  },
+  "flex-layout.col#brasil": {
+    "children": [
+      "rich-text#brasil"
+    ],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "rich-text#brasil": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "###### Brasil\n Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP\n\nR. Ifigenia Maria de Oliveira, 3793 - Jr. Piratininga Franca SP",
+      "textColor": "c-on-emphasis",
+      "font": "t-mini",
+      "blockClass": "address-footer"
+    }
+  },
+  "flex-layout.col#argentina": {
+    "children": [
+      "rich-text#argentina"
+    ],
+    "props": {
+      "width": "17%"
+    }
+  },
+  "rich-text#argentina": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "###### Argentina\n Soler 5518, 3 Piso C1425BYF Palermo Hollywood CABA",
+      "textColor": "c-on-emphasis",
+      "font": "t-mini",
+      "blockClass": "address-footer"
+    }
+  },
+  "flex-layout.col#mexico": {
+    "children": [
+      "rich-text#mexico"
+    ],
+    "props": {
+      "width": "17%"
+    }
+  },
+  "rich-text#mexico": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "###### Mexico\n Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX",
+      "textColor": "c-on-emphasis",
+      "font": "t-mini",
+      "blockClass": "address-footer"
+    }
+  },
+  "flex-layout.col#chile": {
+    "children": [
+      "rich-text#chile"
+    ],
+    "props": {
+      "width": "17%"
+    }
+  },
+  "rich-text#chile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "###### Chile\n Roberto del Río 1137, Providencia.",
+      "textColor": "c-on-emphasis",
+      "font": "t-mini",
+      "blockClass": "address-footer"
+    }
+  },
+  "flex-layout.col#logo-footer": {
+    "children": [
+      "image#logo-alt"
+    ],
+    "props": {
+      "blockClass": "logo-alt",
+      "width": "17%",
+      "verticalAlign": "top"
+    }
+  },
+  "image#logo-alt": {
+    "props": {
+      "src": "assets/logos/logo-alternativo-corebiz.svg",
+      "maxHeight": 86,
+      "link": { 
+        "url": "#",
+        "noFollow": "true"
+      }
+    }
+  },
+  "image#footer-background": {
+    "props": {
+      "blockClass": "bg-footer",
+      "src": "assets/backgrounds/footer-background.jpg",
+      "maxHeight": 550,
+      "link": "https://www.google.com"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#social",
+      "flex-layout.col#language-selector"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colGap": 9,
+      "blockClass": "social-n-language"
+    }
+  },
+  "flex-layout.col#social": {
+    "children": [
+      "rich-text#social",
+      "social-networks"
+    ],
+    "props": {
+      "width": "16%",
+      "blockClass": "social-n-language"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/corebizag/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://pt-br.facebook.com/corebiz.ag/"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/corebiz-brasil"
+        }
+      ]
+    }
+  },
+  "rich-text#social": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "###### Siga a gente",
+      "textColor": "c-on-emphasis",
+      "font": "t-mini",
+      "blockClass": "address-footer"
+    }
+  },
+  "flex-layout.col#language-selector": {
+    "children": [
+      "locale-switcher",
+      "rich-text#rights-reserved"
+    ],
+    "props": {
+      "width": "16%",
+      "blockClass": "rights"
+    }
+  },
+  "rich-text#rights-reserved": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "direitos reservados. corebiz 2021",
+      "textColor": "c-on-emphasis",
+      "font": "t-small",
+      "blockClass": "address-footer"
+    }
+  },
+  "back-to-top-button":{
+    "props":{
+      "displayThreshold": 768,
+      "display": "caret-icon"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "stack-layout#footer-mobile"
+    ]
+  },
+  "stack-layout#footer-mobile": {
+    "children": [
+      "image#footer-background-mobile",
+      "flex-layout.row#footer-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-stack"
+    }
+  },
+  "image#footer-background-mobile": {
+    "props": {
+      "blockClass": "bg-footer-mobile",
+      "src": "assets/backgrounds/footer-background.jpg",
+      "maxHeight": 550
+    }
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-4-mobile",
+      "flex-layout.row#footer-5-mobile",
+      "back-to-top-button"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-flex"
+    }
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+      "flex-layout.col#logo-footer-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "colGap": 9,
+      "blockClass": "logo-mobile"
+    }
+  },
+  "flex-layout.col#logo-footer-mobile": {
+    "children": [
+      "image#logo-alt-mobile"
+    ],
+    "props": {
+      "blockClass": "logo-alt-mobile",
+      "width": "17%",
+      "verticalAlign": "top"
+    }
+  },
+  "image#logo-alt-mobile": {
+    "props": {
+      "src": "assets/logos/logo-alternativo-corebiz.svg",
+      "maxHeight": 86,
+      "link": { 
+        "url": "#",
+        "noFollow": "true"
+      }
+    }
+  },
+  "flex-layout.row#footer-2-mobile": {
+    "children": [
+      "flex-layout.col#brasil",
+      "flex-layout.col#argentina"
+    ],
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "colGap": 9,
+      "rowGap": 5,
+      "blockClass": "location-mobile"
+    }
+  },
+  "flex-layout.row#footer-3-mobile": {
+    "children": [
+      "flex-layout.col#mexico",
+      "flex-layout.col#chile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "colGap": 9,
+      "rowGap": 5,
+      "blockClass": "location-mobile"
+    }
+  },
+  "flex-layout.row#footer-4-mobile": {
+    "children": [
+      "flex-layout.col#social-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "social-n-language-mobile"
+    }
+  },
+  "flex-layout.col#social-mobile": {
+    "children": [
+      "rich-text#social",
+      "social-networks"
+    ],
+    "props": {
+      "width": "16%",
+      "blockClass": "social-n-language-mobile"
+    }
+  },
+  "flex-layout.row#footer-5-mobile": {
+    "children": [
+      "flex-layout.col#language-selector"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rights-mobile"
+    }
+  },
+
+
+  // HOME
+  
+  
+  "footer#home": {
+    "blocks": [
+      "footer-layout.desktop#home",
+      "footer-layout.mobile#home"
+    ]
+  },
+  "footer-layout.desktop#home": {
+    "children": [
+      "stack-layout#footer-desktop-home"
+    ]
+  },
+  "stack-layout#footer-desktop-home": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-stack"
+    }
+  },
+  "footer-layout.mobile#home": {
+    "children": [
+      "stack-layout#footer-mobile-home"
+    ]
+  },
+  "stack-layout#footer-mobile-home": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-stack"
+    }
+  }
+}

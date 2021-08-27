@@ -139,3 +139,24 @@
 }
 
 /* Fim About Image */
+
+/* Footer */
+
+.imageElement.imageElement--bg-footer,
+.imageElement.imageElement--bg-footer-mobile{
+  position: absolute;
+  top: -100px;
+  right: 0px;
+  z-index: 1;
+  width: 65%;
+  max-width: 1240px;
+}
+
+.imageElement.imageElement--bg-footer-mobile{
+  top: -50px;
+}
+
+.backToTopButtonContainer.backToTopButtonActive {
+  right: 20px;
+  width: fit-content;
+}
