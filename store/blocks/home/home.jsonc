@@ -1,7 +1,8 @@
 {
     "store.home": {
         "blocks": [
-            "stack-layout#home"
+            "responsive-layout.desktop",
+            "responsive-layout.mobile"
         ],
         "parent": { 
             "footer": "footer#home"
@@ -10,12 +11,20 @@
             "blockClass": "stack-home"
         }
     },
+
+    "responsive-layout.desktop": {
+        "children": ["stack-layout#home"]
+      },
+      "responsive-layout.mobile": {
+        "children": ["stack-layout#home-phone"]
+      },
     "stack-layout#home": {
         "children": [
             "image#background",
             "flex-layout.row#home"
         ]
     },
+    
     "image#background": {
         "props": {
             "blockClass": "image-background",
@@ -24,6 +33,22 @@
             "zIndexOffset": 10
         }
     },
+
+    "stack-layout#home-phone": {
+        "children": [
+            "image#background-phone",
+            "flex-layout.row#home"
+        ]
+    },
+    "image#background-phone": {
+        "props": {
+            "blockClass": "image-background-phone",
+            "width": "100%",
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/background-intro-mobile-min.png",
+            "zIndexOffset": 10
+        }
+    },
+
     "flex-layout.row#home": {
         "children": ["flex-layout.col#home"],
         "props": {
