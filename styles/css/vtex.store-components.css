@@ -13,6 +13,12 @@
   padding: 0px;
 }
 
+/* Incluindo espaçamento da logo no Desktop */
+
+.logoImage {
+  margin-left: 100px;
+}
+
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;
@@ -115,7 +121,7 @@
 
 .imageElement--image-background {
   margin-top: -60px;
-  height: 50rem;
+  height: 62rem;
   object-fit: cover;
 }
 
