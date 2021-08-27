@@ -37,7 +37,7 @@
     "stack-layout#home-phone": {
         "children": [
             "image#background-phone",
-            "flex-layout.row#home"
+            "flex-layout.row#home-phone"
         ]
     },
     "image#background-phone": {
@@ -59,6 +59,23 @@
     "flex-layout.col#home": {
         "props": {
             "blockClass": "home"
+        },
+        "children": [
+            "rich-text#title",
+            "rich-text#subtitle",
+            "flex-layout.row#stats"
+        ]
+    },
+    "flex-layout.row#home-phone": {
+        "children": ["flex-layout.col#home-phone"],
+        "props": {
+            "zIndexOffset": 11
+        }
+
+    },
+    "flex-layout.col#home-phone": {
+        "props": {
+            "blockClass": "home-phone"
         },
         "children": [
             "rich-text#title",

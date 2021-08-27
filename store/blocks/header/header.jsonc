@@ -76,7 +76,8 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/logos/logo-corebiz-global.svg",
-      "width": "105"
+      "width": "105",
+      "blockClass": "logo-desktop"
     }
   },
   "header-layout.mobile": {

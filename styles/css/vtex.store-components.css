@@ -15,7 +15,7 @@
 
 /* Incluindo espaçamento da logo no Desktop */
 
-.logoImage {
+.logoImage.logoImage--logo-desktop {
   margin-left: 100px;
 }
 
