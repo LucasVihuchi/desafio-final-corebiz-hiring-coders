@@ -200,14 +200,10 @@
   }
 }
 
-
-
-
-
 /* Vision */
 
 .flexRow--visionValuesRow {
-  margin-bottom: 170px;
+  margin-bottom: 0px;
   overflow: hidden;
   position: relative;
   min-height: 42rem;
@@ -240,8 +236,14 @@
     padding: 4rem 1rem;
   }
 
-
 }
+
+/* Digital Transformation */
+
+.flexRow--digitalTransformationRow{
+  padding: 70px 5vw 120px 5vw;
+}
+
 
 /* Footer */
 

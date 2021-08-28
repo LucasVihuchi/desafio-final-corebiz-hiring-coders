@@ -286,7 +286,55 @@
 
 }
 
+/* Digital Transformation */
 
+.paragraph--businessUnitsText{
+  color: #f1c233;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.paragraph--highlightedListText{
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+
+.paragraph--tabContentItem1Title,
+.paragraph--tabContentItem2Title,
+.paragraph--tabContentItem3Title,
+.paragraph--tabContentItem4Title {
+  font-size: 1.125rem;
+}
+
+.paragraph--tabContentItem1Title {
+  color: #f1c233;
+}
+
+.paragraph--tabContentItem2Title {
+  color: #2680eb;
+}
+
+.paragraph--tabContentItem3Title {
+  color: #953764;
+}
+
+.paragraph--tabContentItem4Title {
+  color: #ce7c3e;
+}
+
+.list--tabContentItemBody{
+  padding-left: 0;
+}
+.listItem--tabContentItemBody{
+  list-style-position: inside;
+  list-style-type: '. ';
+  color: #aaa;
+  font-weight: 500;
+}
 
 
 /* Footer */
