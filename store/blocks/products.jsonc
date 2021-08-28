@@ -1,0 +1,27 @@
+{
+    "store.custom#products": { 
+      "blocks": [
+        "flex-layout.row#products-page"
+      ]
+    },
+    "flex-layout.row#products-page": {
+      "children": [
+        "search-result-layout.customQuery#glasses"
+      ]
+    },
+    "search-result-layout.customQuery#glasses": {
+      "blocks": [
+        "search-result-layout.desktop"
+      ],
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "Óculos",
+          "mapField": "ft",
+          "skusFilter": "ALL_AVAILABLE"
+        }
+      }
+    }
+  }

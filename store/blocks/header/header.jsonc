@@ -55,7 +55,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "flex-layout.col#category-menu"
+      "flex-layout.col#category-menu",
+      "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -88,9 +89,10 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer"
+      "flex-layout.col#spacer",
+      "drawer",
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",

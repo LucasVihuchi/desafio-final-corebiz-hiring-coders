@@ -20,3 +20,8 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.searchResultContainer {
+  width: auto;
+  padding: 0 5vw 180px 5vw;
+}

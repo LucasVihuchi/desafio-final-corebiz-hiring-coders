@@ -21,6 +21,10 @@
   color: #fff;
 }
 
+.flexRowContent--main-header {
+  padding-top: 4px !important;
+}
+
 
 /* Header */
 

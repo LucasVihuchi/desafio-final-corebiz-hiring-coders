@@ -1,0 +1,14 @@
+.minicartQuantityBadgeDefault,
+.cartIcon {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.openIconContainer {
+  padding-top: 0px;
+}
+
+.openIconContainer :global(.vtex-button):hover,
+.openIconContainer :global(.vtex-button):focus {
+  background-color: transparent;
+}
