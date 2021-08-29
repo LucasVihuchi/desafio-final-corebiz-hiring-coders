@@ -25,3 +25,17 @@
   width: auto;
   padding: 0 5vw 180px 5vw;
 }
+
+/* Add to cart button */
+
+.galleryItem.galleryItem--normal.galleryItem--grid :global(.vtex-button){
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .galleryItem.galleryItem--normal.galleryItem--grid :global(.vtex-button){
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
