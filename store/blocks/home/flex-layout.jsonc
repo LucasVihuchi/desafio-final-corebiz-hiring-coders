@@ -1,0 +1,500 @@
+{
+    // Home - Seção 2
+    "flex-layout.row#partners": {
+        "props": {
+            "blockClass": "partners-container",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "image#chillibeans",
+            "image#whirlpool",
+            "image#semparar",
+            "image#motorola",
+            "image#ambev",
+            "image#saraiva",
+            "image#esteelauder",
+            "image#oboticario",
+            "image#epoca",
+            "image#hp",
+            "image#soma",
+            "image#cec",
+            "image#zonasul",
+            "image#aldoconti",
+            "image#philipmorris",
+            "image#simmons",
+            "image#miniso",
+            "image#pardo",
+            "image#lenovo",
+            "image#victorinox",
+            "image#decathlon",
+            "image#singer",
+            "image#nivea",
+            "image#kitchenaid",
+            "image#vans",
+            "image#walmart",
+            "image#jansport",
+            "image#columbia",
+            "image#maccosmetics",
+            "image#fundamenta"
+        ]
+    },
+    "image#chillibeans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-1.png",
+            "link": {
+                "url": "https://loja.chillibeans.com.br/"
+            }
+        }
+    },
+    "image#whirlpool": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-2.png",
+            "link": {
+                "url": "https://www.compradiretaempresas.com.br/"
+            }
+        }
+    },
+    "image#semparar": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-3.png",
+            "link": {
+                "url": "https://www.semparar.com.br/"
+            }
+        }
+    },
+    "image#motorola": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-4.png",
+            "link": {
+                "url": "https://www.motorola.com.br/"
+            }
+        }
+    },
+    "image#ambev": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-5.png",
+            "link": {
+                "url": "https://www.choppbrahmaexpress.com.br/"
+            }
+        }
+    },
+    "image#saraiva": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-6.png",
+            "link": {
+                "url": "https://www.saraiva.com.br/"
+            }
+        }
+    },
+    "image#esteelauder": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-7.png",
+            "link": {
+                "url": "https://www.esteelauder.com/"
+            }
+        }
+    },
+    "image#oboticario": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-8.png",
+            "link": {
+                "url": "https://www.boticario.com.br/"
+            }
+        }
+    },
+    "image#epoca": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-9.png",
+            "link": {
+                "url": "https://www.epocacosmeticos.com.br/"
+            }
+        }
+    },
+    "image#hp": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-10.png",
+            "link": {
+                "url": "https://store.hp.com/br-pt/default/"
+            }
+        }
+    },
+    "image#soma": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-11.png",
+            "link": {
+                "url": "https://www.farmrio.com.br/"
+            }
+        }
+    },
+    "image#cec": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-12.png",
+            "link": {
+                "url": "https://www.cec.com.br/"
+            }
+        }
+    },
+    "image#zonasul": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-13.png",
+            "link": {
+                "url": "https://www.zonasul.com.br/"
+            }
+        }
+    },
+    "image#aldoconti": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-14.png",
+            "link": {
+                "url": "https://www.aldoconti.com/"
+            }
+        }
+    },
+    "image#philipmorris": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-15.png"
+        }
+    },
+    "image#simmons": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-16.png",
+            "link": {
+                "url": "https://www.simmons.com.ar/"
+            }
+        }
+    },
+    "image#miniso": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-17.png",
+            "link": {
+                "url": "https://www.miniso.com.mx/"
+            }
+        }
+    },
+    "image#pardo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-18.png",
+            "link": {
+                "url": "https://www.pardo.com.ar/"
+            }
+        }
+    },
+    "image#lenovo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-19.png",
+            "link": {
+                "url": "https://www.lenovo.com/"
+            }
+        }
+    },
+    "image#victorinox": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-20.png",
+            "link": {
+                "url": "https://www.victorinoxstore.com.br/"
+            }
+        }
+    },
+    "image#decathlon": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-21.png",
+            "link": {
+                "url": "https://www.decathlon.com.br/"
+            }
+        }
+    },
+    "image#singer": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-22.png",
+            "link": {
+                "url": "https://loja.singer.com.br/"
+            }
+        }
+    },
+    "image#nivea": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-23.png"
+        }
+    },
+    "image#kitchenaid": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-24.png",
+            "link": {
+                "url": "https://www.kitchenaid.com.br/"
+            }
+        }
+    },
+    "image#vans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-25.png",
+            "link": {
+                "url": "https://www.vans.com.br/"
+            }
+        }
+    },
+    "image#walmart": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-26.png"
+        }
+    },
+    "image#jansport": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-27.png",
+            "link": {
+                "url": "https://www.jansport.com.br/"
+            }
+        }
+    },
+    "image#columbia": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-28.png",
+            "link": {
+                "url": "https://www.columbiasportswear.com.br/"
+            }
+        }
+    },
+    "image#maccosmetics": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-29.png",
+            "link": {
+                "url": "https://www.maccosmetics.com.br/"
+            }
+        }
+    },
+    "image#fundamenta": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/partners/parceiros-30.png",
+            "link": {
+                "url": "https://fundamenta.cl/"
+            }
+        }
+    },
+
+    // Home - Seção 5 - Notícias
+    "flex-layout.row#news-container": {
+        "props": {
+            "blockClass": "news-container"
+        },
+        "children": ["flex-layout.col#news-left", "flex-layout.col#news-right"]
+    },
+    "flex-layout.col#news-left": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["rich-text#main-news", "flex-layout.col#news-block-left"]
+    },
+    "rich-text#main-news": {
+        "props": {
+            "blockClass": "main-news",
+            "text": "[Main News](https://www.corebiz.ag/pt/resultados-surpreendes-conquistados-pela-loja-da-ruiva-ao-migrar-para-a-vtex/)"
+        }
+    },
+    "flex-layout.col#news-block-left": {
+        "props": {
+            "blockClass": "news-block"
+        },
+        "children": [
+            "flex-layout.row#news-info-row",
+            "rich-text#news-headline-left",
+            "rich-text#news-text"
+        ]
+    },
+    "flex-layout.row#news-info-row": {
+        "props": {
+            "blockClass": "news-info-row"
+        },
+        "children": ["rich-text#news-category-left", "rich-text#news-date-left"]
+    },
+    "rich-text#news-category-left": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#cases](https://www.corebiz.ag/category/cases-de-sucesso-ecommerce)"
+        }
+    },
+    "rich-text#news-date-left": {
+        "props": {
+            "blockClass": "news-date-row",
+            "text": "14 de setembro, 2020"
+        }
+    },
+    "rich-text#news-headline-left": {
+        "props": {
+            "blockClass": "news-headline-left",
+            "text": "[Resultados surpreendentes conquistados pela Loja da Ruiva ao migrar para a VTEX](https://www.corebiz.ag/pt/resultados-surpreendes-conquistados-pela-loja-da-ruiva-ao-migrar-para-a-vtex/)"
+        }
+    },
+    "rich-text#news-text": {
+        "props": {
+            "blockClass": "news-text",
+            "text": "Algumas literaturas já preconizam que todo o negócio deve olhar com os olhos de seus clientes (foco no foco do cliente), que basicamente é entender o que ele preconiza para…"
+        }
+    },
+    "flex-layout.col#news-right": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": [
+            "flex-layout.row#news-block-right-1",
+            "flex-layout.row#news-block-right-2",
+            "flex-layout.row#news-block-right-3"
+        ]
+    },
+    "flex-layout.row#news-block-right-1": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-1", "image#news-image-1"]
+    },
+    "flex-layout.col#news-info-column-1": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-1",
+            "rich-text#news-headline-right-1",
+            "rich-text#news-date-right-1"
+        ]
+    },
+    "rich-text#news-category-right-1": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#mercadodigital | semcategoria](https://www.corebiz.ag/category/mercado-digitalsem-categoria)"
+        }
+    },
+    "rich-text#news-headline-right-1": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Pandemia e o Marketing Digital](https://www.corebiz.ag/pt/pandemia-e-o-marketing-digital/)"
+        }
+    },
+    "rich-text#news-date-right-1": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": "5 de maio, 2020"
+        }
+    },
+    "image#news-image-1": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/logos/capa-artigo-Pandemia-e-Marketing-Digital-240x120 (1).jpg",
+            "link": { "url": "https://www.corebiz.ag/pt/pandemia-e-o-marketing-digital/" }
+        }
+    },
+
+    "flex-layout.row#news-block-right-2": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-2", "image#news-image-2"]
+    },
+    "flex-layout.col#news-info-column-2": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-2",
+            "rich-text#news-headline-right-2",
+            "rich-text#news-date-right-2"
+        ]
+    },
+    "rich-text#news-category-right-2": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#semcategoria](https://www.corebiz.ag/category/sem-categoria)"
+        }
+    },
+    "rich-text#news-headline-right-2": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Comportamento de buscas durante a Pandemia](https://www.corebiz.ag/pt/comportamento-de-buscas-durante-a-pandemia/)"
+        }
+    },
+    "rich-text#news-date-right-2": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": "23 de março, 2020"
+        }
+    },
+    "image#news-image-2": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/logos/capa-artigo-Comportamento-de-busca-durante-a-pandemia-240x120.png",
+            "link": { "url": "https://www.corebiz.ag/pt/comportamento-de-buscas-durante-a-pandemia/" }
+        }
+    },
+
+    "flex-layout.row#news-block-right-3": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-3", "image#news-image-3"]
+    },
+    "flex-layout.col#news-info-column-3": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-3",
+            "rich-text#news-headline-right-3",
+            "rich-text#news-date-right-3"
+        ]
+    },
+    "rich-text#news-category-right-3": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#cases](https://www.corebiz.ag/category/cases-de-sucesso-ecommerce)"
+        }
+    },
+    "rich-text#news-headline-right-3": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Redesign de projeto VTEX na Francisca Jóias garante resultados surpreendentes de conversão.](https://www.corebiz.ag/pt/redesign-de-projeto-vtex-na-francisca-joias-garante-resultados-surpreendentes-de-conversao/)"
+        }
+    },
+    "rich-text#news-date-right-3": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": " 17 de fevereiro, 2020"
+        }
+    },
+    "image#news-image-3": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/logos/Capa-FRancisca.jpg",
+            "link": { "url": "https://www.corebiz.ag/pt/redesign-de-projeto-vtex-na-francisca-joias-garante-resultados-surpreendentes-de-conversao/" } 
+        }
+    }
+}

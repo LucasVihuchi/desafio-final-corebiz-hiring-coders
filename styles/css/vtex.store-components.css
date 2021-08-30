@@ -7,7 +7,6 @@
 }
 
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
@@ -121,8 +120,16 @@
 
 .imageElement--image-background {
   margin-top: -60px;
+  min-height: 100vh;
   height: 62rem;
   object-fit: cover;
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  .imageElement--image-background {
+    min-height: auto;
+  }
 }
 
 /*Background mobile */
@@ -130,6 +137,134 @@
 .imageElement--image-background-phone {
   margin-top: -70px;
   margin-bottom: -4px;
+}
+
+/* Home - Seção 2 */
+.imageElement--partner-logo {
+  transition: all 0.3s ease;
+}
+
+.imageElement--partner-logo:hover {
+  opacity: 0.5;
+}
+
+/* Home - Seção 3 - Infocards */
+.infoCardContainer--info-card-home {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  border: none;
+}
+
+.infoCardTextContainer--info-card-home {
+  margin: 0 5vw;
+  max-width: 32rem;
+  align-items: flex-start;
+}
+
+.infoCardHeadline--info-card-home {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5rem;
+  color: #f1c233;
+  text-align: left;
+}
+
+.infoCardSubhead--info-card-home {
+  font-family: 'Manrope', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  text-align: left;
+}
+
+.infoCardCallActionContainer--info-card-home :global(.vtex-button) {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  background-color: #2680eb;
+  border-radius: 0;
+  border: none;
+  padding: 0.5rem 1.3rem 0.7rem;
+}
+
+/* Home - Seção 4 - Imagem de fundo */
+.imageElement--section-four-bg {
+  width: 60%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Home - Seção 4 - Infocards */
+.infoCardContainer--infocard-epoca {
+  background-color: #ff6e60;
+  margin-right: 3rem;
+}
+
+@media(max-width:900px) {
+  .infoCardContainer--infocard-epoca {
+    margin-right: 0;
+  }
+}
+
+.infoCardContainer--infocard-msn {
+  background-color: #91a7d0;
+}
+
+.infoCardContainer--infocard-epoca {
+  background-size: 100px !important;
+  background-position: 2rem 2rem;
+  width: 310px;
+  border: none;
+}
+
+.infoCardContainer--infocard-msn {
+  background-size: 80px !important;
+  background-position: 2rem 1.7rem;
+  width: 310px;
+  border: none;
+}
+
+.infoCardTextContainer--infocard-epoca,
+.infoCardTextContainer--infocard-msn {
+  margin: auto 2rem;
+  width: 100%;
+}
+
+.infoCardHeadline--infocard-epoca,
+.infoCardHeadline--infocard-msn {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 3rem;
+  padding: 4rem 0 6rem;
+}
+
+.infoCardCallActionContainer--infocard-epoca,
+.infoCardCallActionContainer--infocard-msn {
+  z-index: 3;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.infoCardCallActionContainer--infocard-epoca :global(.vtex-button),
+.infoCardCallActionContainer--infocard-msn :global(.vtex-button) {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0;
+  text-transform: lowercase;
+}
+
+/* Home - Seção 5 - Miniaturas de notícias */
+.imageElement--news-thumbnail {
+  width: 240px;
+  height: 120px;
+  transition: all 0.3s ease;
+}
+
+.imageElement--news-thumbnail:hover {
+  opacity: 0.8;
 }
 
 /* About */

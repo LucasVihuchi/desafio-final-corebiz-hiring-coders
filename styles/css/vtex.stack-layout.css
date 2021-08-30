@@ -10,10 +10,45 @@
 
 /* Home */
 
+.stackContainer--homeSectionOne {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+@media (max-width: 640px) {
+  .stackContainer--homeSectionOne {
+    min-height: auto;
+  }
+}
+
 .stackItem.stackItem--first.stackItem--image-background {
   background-color: #000000;
 }
+ /* Home - Seção 4 */
+.stackContainer--section-four-container {
+  padding: 5vw 100px 5vw 100px;
+  background-color: #000;
+  height: 1000px;
+  min-height: 100vh;
+  justify-content: start;
+}
 
+@media (max-width: 970px) {
+  .stackContainer--section-four-container {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 460px) {
+  .stackContainer--section-four-container {
+    height: 1500px;
+  }
+}
+
+.stackItem--section-four-container--section-four-bg {
+  align-items: start;
+}
+ 
 /* Footer */
 
 .stackContainer :global(.vtex-stack-layout-0-x-stackItem--footer-stack){

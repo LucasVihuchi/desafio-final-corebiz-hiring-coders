@@ -5,9 +5,9 @@
   background-color: #F0F0F0;
 }
 
-.sliderTrackContainer {
+/* .sliderTrackContainer {
   max-width: 1520px;
-}
+} */
 
 .paginationDotsContainer {
   margin-top: .5rem;
@@ -24,6 +24,35 @@
   margin-bottom: 25px;
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+.sliderLayoutContainer--section-three {
+  overflow-x: hidden;
+}
+
+.slideChildrenContainer--section-three {
+  height: 100vh;
+}
+
+/* Home - Seção 3 - Setas de movimentação dos slides */
+.sliderArrows--section-three {
+  background: #fff !important;
+  border-radius: 50%;
+  transform: scale(0.5);
+}
+
+.sliderLeftArrow--section-three {
+  padding: 2rem;
+  left: -2rem;
+}
+
+.sliderRightArrow--section-three {
+  padding: 5rem;
+  right: -3.8rem;
+}
+
+.paginationDot--isActive {
+  background-color: #03044e;
 }
 
 /* About */

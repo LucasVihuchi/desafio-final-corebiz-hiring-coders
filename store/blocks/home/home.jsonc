@@ -11,20 +11,36 @@
             "blockClass": "stack-home"
         }
     },
-
     "responsive-layout.desktop": {
-        "children": ["stack-layout#home"]
+        "children": [
+          "stack-layout#home",
+          "flex-layout.row#section-two",
+          "slider-layout#section-three",
+          "stack-layout#section-four",
+          "flex-layout.row#section-five"
+        ]
       },
       "responsive-layout.mobile": {
-        "children": ["stack-layout#home-phone"]
+        "children": [
+          "stack-layout#home-phone",
+          "flex-layout.row#section-two",
+          "slider-layout#section-three",
+          "stack-layout#section-four",
+          "flex-layout.row#section-five"
+        ]
       },
+      
+    // Mapa
+    
     "stack-layout#home": {
         "children": [
             "image#background",
             "flex-layout.row#home"
-        ]
+        ],
+        "props": {
+            "blockClass": "homeSectionOne"
+        }
     },
-    
     "image#background": {
         "props": {
             "blockClass": "image-background",
@@ -33,7 +49,6 @@
             "zIndexOffset": 10
         }
     },
-
     "stack-layout#home-phone": {
         "children": [
             "image#background-phone",
@@ -48,7 +63,6 @@
             "zIndexOffset": 10
         }
     },
-
     "flex-layout.row#home": {
         "children": ["flex-layout.col#home"],
         "props": {
@@ -63,7 +77,7 @@
         "children": [
             "rich-text#title",
             "rich-text#subtitle",
-            "flex-layout.row#stats"
+            "flex-layout.row#stats"   
         ]
     },
     "flex-layout.row#home-phone": {
@@ -81,6 +95,7 @@
             "rich-text#title",
             "rich-text#subtitle",
             "flex-layout.row#stats"
+           
         ]
     },
     "rich-text#title": {
@@ -167,5 +182,242 @@
             "text": "clientes ativos em<br />diversos países",
             "blockClass": "stats-description"
         }
+    },
+
+    // Principais Clientes
+
+    "flex-layout.row#section-two": {
+        "props": {
+            "blockClass": "section-two"
+        },
+        "children": [
+            "flex-layout.col#section-two"
+        ]
+    },
+    "flex-layout.col#section-two": {
+        "children": [
+            "rich-text#clients-title",
+            "flex-layout.row#partners"
+        ],
+        "props": {
+            "blockClass":"homeSectionTwo"
+        }
+    },
+    "rich-text#clients-title": {
+        "props": {
+            "blockClass": "section-two-title",
+            "text": "alguns de nossos<br />principais clientes"
+        }
+    },
+
+    // Slider
+
+    "slider-layout#section-three": {
+        "props": {
+            "blockClass": "section-three",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "always",
+            "fullWidth": "true",
+            "showNavigationArrows": "desktopOnly"
+        },
+        "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4"]
+    },
+    "info-card#1": {
+        "props": {
+            "id": "infocard-chillibeans",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/carousel/case-slider-chillibeans-min.jpg",
+            "headline": "case",
+            "subhead": "5x mais receita no E-commerce da ChilliBeans",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/chillibeans/",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#2": {
+        "props": {
+            "id": "infocard-cec",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/carousel/case-slider-cc-min.jpg",
+            "headline": "case",
+            "subhead": "elevação do faturamento do ecommerce de c&c",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/cc/",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#3": {
+        "props": {
+            "id": "infocard-kitchenaid",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/carousel/case-slider-kitchenaid-min.jpg",
+            "headline": "case",
+            "subhead": "aumento do volume de vendas kitchenaid",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/kitchenaid/",
+            "textAlignment": "left",
+            "TextModeEnum": "rich-text"
+        }
+    },
+    "info-card#4": {
+        "props": {
+            "id": "infocard-semparar",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/carousel/case-slider-black-friday-min.jpg",
+            "headline": "case",
+            "subhead": "maior ação de vendas do semparar na blackfriday",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/sem-parar/",
+            "textAlignment": "left"
+        }
+    },
+
+    // Midia
+
+    "stack-layout#section-four": {
+        "props": {
+            "blockClass": "section-four-container"
+        },
+        "children": [
+            "image#section-four-bg",
+            "flex-layout.row#section-four"
+        ]
+    },
+    "image#section-four-bg": {
+        "props": {
+            "blockClass": "section-four-bg",
+            "src": "assets/backgrounds/background-media.png"
+        }
+    },
+    "flex-layout.row#section-four": {
+        "props": {
+            "blockClass": "section-four-flexrow"
+        },
+        "children": ["flex-layout.col#section-four"]
+    },
+    "flex-layout.col#section-four": {
+        "props": {
+            "blockClass": "section-four-container"
+        },
+        "children": [
+            "rich-text#section-four-title",
+            "rich-text#section-four-subtitle",
+            "flex-layout.row#media-container"
+        ]
+    },
+    "rich-text#section-four-title": {
+        "props": {
+            "blockClass": "section-four-title",
+            "text": "corebiz na mídia."
+        }
+    },
+    "rich-text#section-four-subtitle": {
+        "props": {
+            "blockClass": "section-four-subtitle",
+            "text": "As atuações na Corebiz no mercado de comércios digitais chamaram a atenção da mídia em muitos aspectos. Veja algumas menções sobre nós em grandes mídias:"
+        }
+    },
+    "flex-layout.row#media-container": {
+        "children": ["stack-layout#media-block-1", "stack-layout#media-block-2"],
+        "props": {
+            "blockClass": "mediaContainerHome"
+        }
+    },
+    "stack-layout#media-block-1": {
+        "children": ["info-card#epoca", "rich-text#quote-date-epoca"]
+    },
+    "image#logo-epoca": {
+        "props": {
+            "src": "assets/logos/logo-epoca.png"
+        }
+    },
+    "info-card#epoca": {
+        "props": {
+            "id": "infocard-epoca",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/logos/logo-epoca.png",
+            "headline": "vendas online de alimentos<br />aumentam 330% durante<br />pandemia.",
+            "callToActionText": "ver postagem",
+            "callToActionUrl": "https://oglobo.globo.com/epoca/guilherme-amado/vendas-online-de-alimentos-aumentam-330-durante-pandemia-24359822",
+            "blockClass": "infocard-epoca",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#quote-date-epoca": {
+        "props": {
+            "blockClass": "quote-date",
+            "text": "20 de abril, 2020"
+        }
+    },
+    "stack-layout#media-block-2": {
+        "children": ["info-card#msn", "rich-text#quote-date-msn"]
+    },
+    "info-card#msn": {
+        "props": {
+            "id": "infocard-msn",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/logos/logo-msn.png",
+            "headline": "de olho na transformação do mercado, corebiz expande operação no brasil.",
+            "callToActionText": "ver postagem",
+            "callToActionUrl": "https://www.msn.com/pt-br/dinheiro/other/de-olho-na-transforma%c3%a7%c3%a3o-do-mercado-corebiz-expande-opera%c3%a7%c3%a3o-no-brasil/ar-BBYN222?srcref=rss",
+            "blockClass": "infocard-msn",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#quote-date-msn": {
+        "props": {
+            "blockClass": "quote-date",
+            "text": "8 de janeiro, 2020"
+        }
+    },
+
+
+    // Noticias
+
+    "flex-layout.row#section-five": {
+        "children": [
+            "flex-layout.col#section-five"
+        ],
+        "props": {
+            "blockClass": "homeSectionFive"
+        }
+
+    },
+    "flex-layout.col#section-five": {
+        "props": {
+            "blockClass": "section-five"
+        },
+        "children": [
+            "rich-text#section-five-title",
+            "rich-text#section-five-subtitle",
+            "flex-layout.row#news-container"
+        ]
+    },
+    "rich-text#section-five-title": {
+        "props": {
+            "blockClass": "section-five-title",
+            "text": "notícias e conteúdos."
+        }
+    },
+    "rich-text#section-five-subtitle": {
+        "props": {
+            "blockClass": "section-five-subtitle",
+            "text": "Veja abaixo as principais notícias e conteúdos do blog da Corebiz. Se preferir acesse ao blog e fique por dentro."
+        }
     }
-  }
+}
