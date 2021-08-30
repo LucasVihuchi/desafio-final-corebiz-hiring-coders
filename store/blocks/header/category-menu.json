@@ -5,15 +5,15 @@
       "horizontalAlign": "right"
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more",
-      "menu-item#blog"
+      "menu-item#category-about",
+      "menu-item#category-products",
+      "modal-trigger#client-signup",
+      "menu-item#external-blog"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-about": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-about",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -26,9 +26,9 @@
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-products": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-products",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -41,9 +41,23 @@
       }
     }
   },
-  "menu-item#more": {
+  "modal-trigger#client-signup": {
+    "children": [
+      "menu-item#contact",
+      "modal-layout#client-signup"
+    ]
+  },
+  "modal-layout#client-signup": {
+    "children": [
+      "form-leads"
+    ],
     "props": {
-      "id": "menu-item-custom-sale",
+      "blockClass": "ClientSignupModal"
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -56,16 +70,15 @@
       }
     }
   },
-
-  "menu-item#blog": {
+  "menu-item#external-blog": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-external-blog",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/blog/",
         "noFollow": true,
         "tagTitle": "blog",
         "text": "blog"

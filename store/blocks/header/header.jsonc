@@ -107,9 +107,10 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-about",
+      "menu-item#category-products",
+      "modal-trigger#client-signup",
+      "menu-item#external-blog"
     ],
     "props": {
       "orientation": "vertical",

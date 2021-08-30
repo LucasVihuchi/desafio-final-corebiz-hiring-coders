@@ -87,3 +87,9 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+/* Client Signup Modal */
+
+.modal :global(.vtex-modal-layout-0-x-paper--ClientSignupModal){
+  border-radius: 1rem;
+}
