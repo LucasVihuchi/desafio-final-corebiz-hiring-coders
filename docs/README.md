@@ -9,7 +9,7 @@ O contexto completo do desafio está [aqui](https://drive.google.com/file/d/1cjX
 
 Você pode conferir aqui nesse [link](https://lucasvihuchi--hiringcoders202106.myvtex.com/)
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/home2.png)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/home2.png)
 
 ## Estruturação da loja
 
@@ -116,7 +116,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum nisi 
 <a id="ancora3"></a>
 ### Header
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/headerv.gif)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/headerv.gif)
 
 O Header responsivo foi desenvolvido através dos blocos "header-layout.desktop" e "header-layout.mobile". O layout desktop conta com o logo, um menu de navegação e um minicart, organizados em um "flex-layout". Já o layout mobile, mantém o logo e minicart, e a navegação é condensada em um menu gaveta.
 
@@ -125,7 +125,7 @@ O Header responsivo foi desenvolvido através dos blocos "header-layout.desktop"
 <a id="ancora4"></a>
 ### Footer
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/footer.png)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/footer.png)
 
 O footer responsivo com os blocos "footer-layout.desktop" e "footer-layout.mobile" também utiliza o flex layout para organizar o logo, os endereços da corebiz em cada país, as redes sociais, o copyright e um botão que leva ao topo da página.
 
@@ -134,7 +134,7 @@ O footer responsivo com os blocos "footer-layout.desktop" e "footer-layout.mobil
 <a id="ancora5"></a>
 ### Home
 
-![Imagem do elemento](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/home2.png)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/home2.png)
 
 O store.home, baseado na aparência do site original, tem como objetivo trazer de mensagem inicial a presença global da corebiz. Desta forma, há uma imagem de fundo com o mapa de presença, mais um "stack-layout" estilizado com blocos "rich-text" para o título, subtítulo e estatísticas.
 
@@ -143,7 +143,7 @@ O store.home, baseado na aparência do site original, tem como objetivo trazer d
 <a id="ancora6"></a>
 ### Sobre
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/sobre.png)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/sobre.png)
 
 A página about-us traz a missão e valores que são a base da corebiz. Foi utilizado "flex-layout" para compor o design das imagens com os textos e foi inserido um "tablayout" estilizado para descrever o framework de transformação digital da empresa, separando os seguimentos canal de vendas, taxa de conversão, marketing de performance e projetos ominichannel.
 
@@ -152,7 +152,7 @@ A página about-us traz a missão e valores que são a base da corebiz. Foi util
 <a id="ancora7"></a>
 ### Produtos
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/produtos.png)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/produtos.png)
 
 Após cadastrar e ativar as marcas, categorias e produtos através do Admin, a página de produtos foi criada através de um bloco customizado "store.custom#products" com um "search-result-layout", filtrando apenas os óculos e estabelecendo um máximo de 8 produtos por página. Possui a opção de visualização em grid ou lista e customização dos filtros de busca.
 
@@ -161,7 +161,7 @@ Após cadastrar e ativar as marcas, categorias e produtos através do Admin, a p
 <a id="ancora8"></a>
 ### Contato
 
-![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/tree/main/docs/img/contactv.gif)
+![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/contactv.gif)
 
 A área de contato do site abre um modal para cadastro de leads de clientes que se conecta a API AWS. Foi utilizado um Componente VTEX com um formulário de cadastro contendo os campos nome, email, telefone, e um registro automático de prospect para possivelmente ser transformado em cliente caso o usuário finalize alguma compra na loja. Mais detalhes [aqui](https://github.com/guilhermanosilva/form-lead-component-vtex). 
 
