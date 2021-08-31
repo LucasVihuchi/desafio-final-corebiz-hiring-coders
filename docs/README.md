@@ -88,8 +88,9 @@ As página "Home" e "Sobre" seguem os mesmos padrões da corebiz com as informa�
 
 Os componentes da loja elaborados para o desafio foram:
 
-* [Api Vtex IO](#ancora1)
-* [Api AWS](#ancora2)
+* [Api Vtex IO](https://github.com/albertohf/AdminRepoVtexIO)
+* [Api AWS](https://github.com/guilhermanosilva/aws-api-hiring-coders)
+* [Componente Cadastro Leads](https://github.com/guilhermanosilva/form-lead-component-vtex)
 * [Header](#ancora3)
 * [Footer](#ancora4)
 * [Home](#ancora5)
@@ -97,19 +98,9 @@ Os componentes da loja elaborados para o desafio foram:
 * [Produtos](#ancora7)
 * [Contato](#ancora8)
 
+
+
 Abaixo você pode conferir como realizamos a construção de cada um destes compenentes.
-
-<a id="ancora1"></a>
-### API VTEX IO
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum nisi vel metus ultricies congue. Praesent tempus dignissim placerat. Morbi viverra, velit vitae imperdiet facilisis, tellus eros sodales felis, id aliquet eros ipsum eu nisl. Curabitur ac ante vitae lectus cursus porttitor id vel enim. Nullam placerat ac augue ut auctor. Fusce mattis sit amet nisi at ultricies. Nunc iaculis finibus lectus, sit amet mollis lectus suscipit in. Integer volutpat tellus at congue congue.
-
-:arrow_up:[Ver componentes](#ancora)
-
-<a id="ancora2"></a>
-### API AWS
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum nisi vel metus ultricies congue. Praesent tempus dignissim placerat. Morbi viverra, velit vitae imperdiet facilisis, tellus eros sodales felis, id aliquet eros ipsum eu nisl. Curabitur ac ante vitae lectus cursus porttitor id vel enim. Nullam placerat ac augue ut auctor. Fusce mattis sit amet nisi at ultricies. Nunc iaculis finibus lectus, sit amet mollis lectus suscipit in. Integer volutpat tellus at congue congue.
 
 :arrow_up:[Ver componentes](#ancora)
 
@@ -136,7 +127,7 @@ O footer responsivo com os blocos "footer-layout.desktop" e "footer-layout.mobil
 
 ![](https://github.com/LucasVihuchi/desafio-final-corebiz-hiring-coders/blob/main/docs/img/home2.png)
 
-O store.home, baseado na aparência do site original, tem como objetivo trazer de mensagem inicial a presença global da corebiz. Desta forma, há uma imagem de fundo com o mapa de presença, mais um "stack-layout" estilizado com blocos "rich-text" para o título, subtítulo e estatísticas.
+O store.home, baseado na aparência do site original, tem como objetivo trazer de mensagem inicial a presença global da corebiz. Desta forma, a home foi divida em seções para separar cada parte dessa página inicial. Na primeira seção há uma imagem de fundo com o mapa de presença, mais um "stack-layout" estilizado com blocos "rich-text" para o título, subtítulo e estatísticas. Na seção seguinte, os ícones de parceiros foram baixados diretamente da página oficial da corebiz e sincronizadas através do asset builder, mostrando alguns dos principais clientes da empresa. Já na terceira seção, o uso das imagens também seguiram o mesmo critério, porém foi utilizado o "slider-layout" para mostrar cada imagem ao clicar nas setas de ambos os lados, direita ou esquerda. A quarta seção foi estilizada usando dois blocos de "info-cards" para mostrar as atuações da corebiz na mídia. Com isso, finalizando com a quinta seção, nela é mostrada as principais notícias e conteúdos do blog da corebiz, usando-se o "rich-text", "flex-layout" e "image" para os títulos, hashtags e imagens referentes ao conteúdo descrito.
 
 :arrow_up:[Ver componentes](#ancora)
 
