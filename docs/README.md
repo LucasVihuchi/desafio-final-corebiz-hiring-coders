@@ -91,6 +91,7 @@ Os componentes da loja elaborados para o desafio foram:
 * [Api Vtex IO](https://github.com/albertohf/AdminRepoVtexIO)
 * [Api AWS](https://github.com/guilhermanosilva/aws-api-hiring-coders)
 * [Componente Cadastro Leads](https://github.com/guilhermanosilva/form-lead-component-vtex)
+* [Componente Lista de Leads Admin] (https://github.com/guilhermanosilva/list-leads-admin-component-vtex)
 * [Header](#ancora3)
 * [Footer](#ancora4)
 * [Home](#ancora5)
